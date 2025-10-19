@@ -7,12 +7,11 @@ Project Overview
 
 Modern data‑driven projects often involve scattered preprocessing scripts and manual task execution.
 This project aims to design a unified automation manager for these image‑based data flows.
-The current implementation focuses on medical microscopy images using the RBC Raabin‑WBC Dataset.
-
+The current implementation focuses on medical microscopy images .using the Raabin-WBC Dataset.
 Core Features (so far):
 
     Preprocessing pipeline for color microscope images
-    Operations: noise removal (Gaussian Blur), grayscale conversion, and edge detection (Canny)
+    Operations: noise removal (Median Blur), grayscale conversion, and edge detection (Canny)
     Automatic iteration through entire image folders
     Saving intermediate steps (gray, edges) for analysis
     Modular structure ready for task management integration
